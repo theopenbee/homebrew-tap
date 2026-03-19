@@ -14,22 +14,22 @@ cask "openbee" do
   on_macos do
     on_intel do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-darwin-amd64.tar.gz"
-      sha256 "ca6cdecf9bf3d703e3bb89bf3bab10c9eb4633f2ac6db9c6ab557199cd36db8d"
+      sha256 "5b52dda9cd4123b3bce107a80b8467a357c1c0843cbea0fa48cf9b38c562d134"
     end
     on_arm do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-darwin-arm64.tar.gz"
-      sha256 "d1bc6c45d54fdb33271bc5193082d832f0fb765bb4cfc69cf664d0c7d5bccd84"
+      sha256 "e0a3322565c102855b37ae3f2932f8d8173e731b1f1fe016b13bf76010e7f830"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-linux-amd64.tar.gz"
-      sha256 "fa17068e46f1471ffbd19348330fb4e60fdcd9d4aed384d79c1598147ee6e4bb"
+      sha256 "b44e105be96bbbc1199806873af224b8bf5e2bbc37e793a102219810d2af8bfb"
     end
     on_arm do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-linux-arm64.tar.gz"
-      sha256 "75512cf86a0011496f2c05c9ad68f527bd791d3a13d325ab50af833171dab1e7"
+      sha256 "d043b8b8a4225a684163fd74e9ecb03d2821f088f90daeb1e1ce57f930f5ef32"
     end
   end
 
