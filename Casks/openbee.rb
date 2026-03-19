@@ -3,7 +3,7 @@ cask "openbee" do
   name "openbee"
   desc "OpenBee 核心服务"
   homepage "https://github.com/theopenbee/openbee"
-  version "0.0.1-test.1"
+  version "0.0.1-test.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "openbee" do
   on_macos do
     on_intel do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-darwin-amd64.tar.gz"
-      sha256 "5b52dda9cd4123b3bce107a80b8467a357c1c0843cbea0fa48cf9b38c562d134"
+      sha256 "1ea3f7153433d4349626994cec4b1c52b6720bce644cc701db0dea7fafdd3156"
     end
     on_arm do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-darwin-arm64.tar.gz"
-      sha256 "e0a3322565c102855b37ae3f2932f8d8173e731b1f1fe016b13bf76010e7f830"
+      sha256 "69b906ba794e32f0a652fd864ee2e4f89a091b22aaa36634868e865cab944265"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-linux-amd64.tar.gz"
-      sha256 "b44e105be96bbbc1199806873af224b8bf5e2bbc37e793a102219810d2af8bfb"
+      sha256 "5c7b5a2b73028906a920ebbd0a9ad22dedb1940039dd782ffe696846b200b368"
     end
     on_arm do
       url "https://github.com/theopenbee/openbee/releases/download/v#{version}/openbee-#{version}-linux-arm64.tar.gz"
-      sha256 "d043b8b8a4225a684163fd74e9ecb03d2821f088f90daeb1e1ce57f930f5ef32"
+      sha256 "30d500fb1313cc94cc45b98e8fa58b14261c915de8eaaa1c68b1de3c68c95f2d"
     end
   end
 
