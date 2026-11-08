@@ -1,11 +1,11 @@
 cask "openbee-desktop" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.0.1"
-  sha256 arm:   "e0c92e1134734370d0451bd40c9792928a48bb19af1276c05c242c4e56857495",
-         intel: "962496b77547c4763c771852a4fadfccb94be4bf7f559bf819a1413be4c9772a"
+  version "1.0.2"
+  sha256 arm:   "6b7b8ba42a3e65df1784396e9f337764b8b16e409799249d8f3a8a636e899837",
+         intel: "0d024195abfbc740b0cd44979a11a17105ced5cfc7483d870ce706f34a783ea7"
 
-  url "https://github.com/theopenbee/openbee/releases/download/v1.0.1/openbee-desktop-1.0.1-darwin-#{arch}.zip"
+  url "https://github.com/theopenbee/openbee/releases/download/v1.0.2/openbee-desktop-1.0.2-darwin-#{arch}.zip"
   name "OpenBee"
   desc "Desktop app with the OpenBee server built in"
   homepage "https://github.com/theopenbee/openbee"
@@ -14,6 +14,7 @@ cask "openbee-desktop" do
     skip "Auto-generated on release."
   end
 
+  auto_updates true
   depends_on :macos
 
   app "OpenBee.app"
