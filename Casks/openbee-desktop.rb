@@ -1,11 +1,11 @@
 cask "openbee-desktop" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.0.9"
-  sha256 arm:   "3be38e5abb6fb86a983f2b1b27d4424622e12eeac20c7d19437d82c924639972",
-         intel: "49c23c5ccd3ebf175f1b48b940b4f23a5fb53dcda335763b46a074f489b4851a"
+  version "1.0.10"
+  sha256 arm:   "a8cf602c2f6bd5c39ba652652c47c54815bc273a14b2caf7ed8313e988e34b2e",
+         intel: "957c1e229e19871678269fda997223cb96b29318adbd905231abcb4dadbe35bf"
 
-  url "https://github.com/theopenbee/openbee/releases/download/v1.0.9/openbee-desktop-1.0.9-darwin-#{arch}.zip"
+  url "https://github.com/theopenbee/openbee/releases/download/v1.0.10/openbee-desktop-1.0.10-darwin-#{arch}.zip"
   name "OpenBee"
   desc "Desktop app with the OpenBee server built in"
   homepage "https://github.com/theopenbee/openbee"
